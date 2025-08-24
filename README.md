@@ -1,6 +1,25 @@
-# 📝 DSA in C++: Master Data Structures & Algorithms 🚀
+# 📝 DSA: Master Data Structures & Algorithms 🚀
 
-Welcome to **DSA in C++**! 🎉 This repository is your go-to resource for learning and mastering Data Structures and Algorithms (DSA) through clean, well-documented C++ implementations. It includes core DSA concepts and solutions to popular LeetCode-style problems, making it perfect for students, coding enthusiasts, and anyone preparing for technical interviews. Whether you're a beginner or sharpening your skills, this repo has something for you! 💻
+![License](https://img.shields.io/github/license/H0NEYP0T-466/DSA?color=blue&style=flat-square)
+![Stars](https://img.shields.io/github/stars/H0NEYP0T-466/DSA?style=flat-square&color=yellow)
+![Forks](https://img.shields.io/github/forks/H0NEYP0T-466/DSA?style=flat-square&color=green)
+![Issues](https://img.shields.io/github/issues/H0NEYP0T-466/DSA?style=flat-square&color=red)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
+
+Welcome to **DSA**! 🎉 This repository is your go-to resource for learning and mastering Data Structures and Algorithms (DSA) through clean, well-documented C++ implementations. It includes core DSA concepts and solutions to popular LeetCode-style problems, making it perfect for students, coding enthusiasts, and anyone preparing for technical interviews. Whether you're a beginner or sharpening your skills, this repo has something for you! 💻
+
+## 📑 Table of Contents
+
+- [Features](#-features)
+- [Folder Structure](#-folder-structure)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Topics Covered](#-topics-covered)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Roadmap](#-roadmap)
+- [Acknowledgements](#-acknowledgements)
 
 ## ✨ Features
 
@@ -18,25 +37,29 @@ The repository is organized such that each `.cpp` file contains a specific data 
 DSA/
 ├── adjacency_list.cpp                    # Graph representation using adjacency list
 ├── adjacency_matrix.cpp                  # Graph representation using adjacency matrix
-├── arrays.cpp                            # Array-based operations
-├── avl_trees.cpp                         # AVL tree implementation
-├── avl_trees_rotations.cpp               # AVL tree rotations
+├── arrays.cpp                                      # Array-based operations
+├── asd.cpp                                         # Additional data structure implementations
+├── avl _trees_rotations.cpp                        # AVL tree with rotations
+├── avl_trees.cpp                                   # AVL tree implementation
 ├── bellman_ford_algo.cpp                 # Bellman-Ford shortest path algorithm
 ├── bfs_traversal.cpp                     # Breadth-First Search for graphs
 ├── binary_search_trees.cpp               # Binary Search Tree operations
-├── binary_tree.cpp                       # Binary Tree implementation
-├── bucket_array.cpp                      # Bucket sort with arrays
+├── binary_tree.cpp                                 # Binary Tree implementation
+├── bs.cpp                                          # Binary search algorithm
+├── bucket_array.cpp                                # Hash table with bucket arrays
 ├── circular_linked_lists.cpp             # Circular linked list operations
 ├── cycle_linkedlist.cpp                  # Detect cycle in linked list
 ├── dfs_traversal.cpp                     # Depth-First Search for graphs
 ├── dijkstars_algo.cpp                    # Dijkstra’s shortest path algorithm
 ├── doubly_circular_linked_lists.cpp      # Doubly circular linked list
-├── doubly_linked_lists.cpp               # Doubly linked list operations
-├── hash_map.cpp                          # Hash map implementation
+├── doubly_linked_lists.cpp                         # Doubly linked list operations
+├── dsa_final.cpp                                   # Comprehensive DSA implementation
+├── final.cpp                                       # Final implementation file
+├── hash_map.cpp                                    # Hash map implementation
 ├── heaps.cpp                             # Heap data structure and operations
-├── largest_rectangle_histrogram.cpp      # Largest rectangle in histogram
+├── largest_rectangle_histrogram,next_smallest_largest_element.cpp  # Histogram problems
 ├── longest_substring_without_repeating.cpp # Longest substring without repeating chars
-├── next&prev_smallest_element.cpp        # Next/previous smaller element
+├── next&prev_smallest element.cpp                  # Next/previous smaller element
 ├── pattern.cpp                           # Pattern matching algorithm
 ├── prims_algo.cpp                        # Prim’s minimum spanning tree algorithm
 ├── product_ofarray_exceptself.cpp        # Product of array except self
@@ -52,6 +75,8 @@ DSA/
 └── README.md                             # Project documentation
 ```
 
+**Total Files:** 37 C++ implementations + 1 README
+
 ## 🛠 Tech Stack
 
 - **C++**: Primary language for all implementations (C++11 or later recommended).
@@ -63,26 +88,54 @@ DSA/
 - Compile any `.cpp` file using: `g++ filename.cpp -o filename`.
 - Run the executable: `./filename` (Linux/macOS) or `filename.exe` (Windows).
 
-## 🚀 Usage
+## 🚀 Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/H0NEYP0T-466/DSA.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory:**
    ```bash
    cd DSA
    ```
-3. Compile a specific file (e.g., `bfs_traversal.cpp`):
+
+3. **Ensure you have a C++ compiler installed:**
+   - **Linux/macOS**: Install `g++` via package manager
+   - **Windows**: Install MinGW, MSYS2, or Visual Studio
+   - **Online**: Use platforms like Replit, CodeBlocks, or any online C++ compiler
+
+4. **Verify installation:**
+   ```bash
+   g++ --version
+   ```
+
+## 🚀 Usage
+
+1. **Compile a specific file** (e.g., `bfs_traversal.cpp`):
    ```bash
    g++ bfs_traversal.cpp -o bfs_traversal
    ```
-4. Run the program:
+
+2. **Run the program:**
    ```bash
-   ./bfs_traversal  # Linux/macOS
-   bfs_traversal.exe  # Windows
+   ./bfs_traversal      # Linux/macOS
+   bfs_traversal.exe    # Windows
    ```
-5. Explore the code, modify inputs, or use it as a reference for your learning!
+
+3. **Example workflow:**
+   ```bash
+   # Compile and run queue implementation
+   g++ queues.cpp -o queues && ./queues
+   
+   # Compile and run binary search tree
+   g++ binary_search_trees.cpp -o bst && ./bst
+   
+   # Compile and run graph traversal
+   g++ dfs_traversal.cpp -o dfs && ./dfs
+   ```
+
+4. **Explore the code, modify inputs, or use it as a reference for your learning!**
 
 ## 📚 Topics Covered
 
@@ -91,7 +144,7 @@ This repository covers a wide range of DSA topics and LeetCode-style problems, i
 - **Arrays**:
   - Basic array operations (`arrays.cpp`)
   - Product of array except self (`product_ofarray_exceptself.cpp`)
-  - Largest rectangle in histogram (`largest_rectangle_histrogram.cpp`)
+  - Largest rectangle in histogram (`largest_rectangle_histrogram,next_smallest_largest_element.cpp`)
 - **Linked Lists**:
   - Singly linked lists (`singly_linked_lists.cpp`)
   - Doubly linked lists (`doubly_linked_lists.cpp`)
@@ -107,7 +160,7 @@ This repository covers a wide range of DSA topics and LeetCode-style problems, i
 - **Trees**:
   - Binary Tree (`binary_tree.cpp`)
   - Binary Search Tree (`binary_search_trees.cpp`)
-  - AVL Trees (`avl_trees.cpp`, `avl_trees_rotations.cpp`)
+  - AVL Trees (`avl_trees.cpp`, `avl _trees_rotations.cpp`)
   - Validate BST (`validat_BST.cpp`)
 - **Graphs**:
   - Adjacency List (`adjacency_list.cpp`)
@@ -124,11 +177,11 @@ This repository covers a wide range of DSA topics and LeetCode-style problems, i
   - Two Sum problem (`two_sum.cpp`)
 - **Miscellaneous**:
   - Longest substring without repeating characters (`longest_substring_without_repeating.cpp`)
-  - Next/previous smallest element (`next&prev_smallest_element.cpp`)
+  - Next/previous smallest element (`next&prev_smallest element.cpp`)
   - Pattern matching (`pattern.cpp`)
   - Vectors (`vectors.cpp`)
 
-## 🔮 Future Work
+## 🔮 Roadmap
 
 We’re excited to keep growing this repository! Planned enhancements include:
 - **More LeetCode Problems**: Add solutions to additional algorithmic challenges. 🎯
@@ -150,7 +203,39 @@ Contributions are welcome! Whether you’re fixing bugs, adding new algorithms, 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and share the code as you wish!
+This project is licensed under the MIT License:
+
+```
+MIT License
+
+Copyright (c) [YEAR] [AUTHOR_NAME]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 🙏 Acknowledgements
+
+- **Open Source Community**: For inspiring collaborative learning and development 🌍
+- **Algorithm Enthusiasts**: For sharing knowledge and best practices 📚  
+- **Educational Platforms**: LeetCode, HackerRank, and others for providing practice problems 🎯
+- **C++ Community**: For maintaining excellent documentation and resources 💻
+- **Contributors**: Thank you to everyone who has contributed to this repository! 🤝
 
 ---
 
